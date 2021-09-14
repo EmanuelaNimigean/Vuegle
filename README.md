@@ -1,5 +1,8 @@
 # vuegle
 
+##This project's goal is to clone Google homepage using Vue.js
+
+
 ## Project setup
 ```
 npm install
