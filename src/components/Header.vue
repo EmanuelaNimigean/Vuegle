@@ -15,15 +15,5 @@
     </header>
 </template>
 
-<script>
-export default {
-  name: 'Header',
-  props: {
-    msg: String
-  }
-}
-</script>
 
-<style>
-@import '/src/styles/header.css';
-</style>
+<style scoped src="../styles/Header.css"></style>

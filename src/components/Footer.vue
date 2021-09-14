@@ -21,15 +21,4 @@
       </footer>
 </template>
 
-<script>
-export default {
-  name: 'Footer',
-  props: {
-    msg: String
-  }
-}
-</script>
-
-<style>
-@import '/src/styles/footer.css';
-</style>
+<style scoped src="../styles/Footer.css"></style>

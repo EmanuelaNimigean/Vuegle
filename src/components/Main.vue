@@ -1,12 +1,12 @@
 <template>
 <main class="main">
-        <img src="/src/assets/gLogo.png" class="logo" />
+        <img src="../assets/gLogo.png" class="logo" />
 
         <div class="searchBar">
-            <img src="src/assets/search.png" class="searchIcon" />
+            <img src="../assets/search.png" class="searchIcon" />
             <input type="search" class="searchInput" />
-            <img src="/src/assets/keyboard.png" class="keyboardIcon" />
-            <img src="/src/assets/mic.png" class="micIcon" />
+            <img src="../assets/keyboard.png" class="keyboardIcon" />
+            <img src="../assets/mic.png" class="micIcon" />
         </div>
 
         <div class="buttons">
@@ -25,15 +25,4 @@
     </main>
 </template>
 
-<script>
-export default {
-  name: 'Main',
-  props: {
-    msg: String
-  }
-}
-</script>
-
-<style>
-@import '/src/styles/main.css';
-</style>
+<style scoped src="../styles/Main.css"></style>
