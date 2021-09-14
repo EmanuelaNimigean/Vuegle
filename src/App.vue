@@ -5,43 +5,17 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
+import Header from "./components/Header.vue";
+import Main from "./components/Main.vue";
+import Footer from "./components/Footer.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     Main,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html,
-body {
-  height: 100%;
-}
-html {
-  font-size: 65%;
-}
-body {
-  display: grid;
-  grid-template-rows: auto 3fr 1fr;
-  font-family: Arial, sans-serif;
-  font-size: 1.6rem;
-}
-a {
-  text-decoration: none;
-  padding: 0 3px;
-}
-ul {
-  list-style-type: none;
-}
-</style>
+<style src="./styles/App.css"></style>

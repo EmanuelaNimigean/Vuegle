@@ -5,7 +5,7 @@
   width: 100%;
   max-width: 61rem;
   padding: 0 1.2rem;
-  margin: 90px auto 90px auto;
+  margin: 154px auto 154px auto;
   display: flex;
   flex-direction: column;
 }
@@ -99,3 +99,4 @@
 .lang:hover {
   text-decoration: underline;
 }
+
