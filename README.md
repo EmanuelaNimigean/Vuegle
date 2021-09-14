@@ -1,6 +1,6 @@
 # vuegle
 
-##This project's goal is to clone Google homepage using Vue.js
+## This project's goal is to clone Google homepage using Vue.js
 
 
 ## Project setup
