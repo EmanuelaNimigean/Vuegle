@@ -1,17 +1,75 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
-</html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE-firstHW -Google Clone</title>
+    <link rel="icon" href="/images/gIcon.png" />
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navBar">
+            <ul class="navLinks">
+                <li><a href="#" class="navLink">Gmail</a></li>
+                <li><a href="#" class="navLink">Imagini</a></li>
+            </ul>
+            <div class="aplicatii">
+                <img src="./images/aplicatii.png" />
+            </div>
+            <div class="cont">
+                <img src="/images/cont.png" style="border-radius: 50%;" />
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <img src="/images/gLogo.png" class="logo" />
+
+        <div class="searchBar">
+            <img src="images/search.png" class="searchIcon" />
+            <input type="search" class="searchInput" />
+            <img src="/images/keyboard.png" class="keyboardIcon" />
+            <img src="/images/mic.png" class="micIcon" />
+        </div>
+
+        <div class="buttons">
+            <button class="button">Căutare Google</button>
+            <button class="button">Mă simt norocos</button>
+        </div>
+
+        <div class="languages">
+            <p>Google oferit în: </p>
+            <div class="language">
+                <a class="lang" href="">English</a>
+                <a class="lang" href="">magyar</a>
+                <a class="lang" href="">Deutsch</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer1">
+          <p>România</p>
+        </div>
+  
+        <div class="footer2">
+          <ul class="footer2L">
+            <li><a href="https://about.google/?utm_source=google-RO&utm_medium=referral&utm_campaign=hp-footer&fg=1" class="footerLink">Despre</a></li>
+            <li><a href="https://ads.google.com/intl/ro_ro/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="footerLink">Publicitate</a></li>
+            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" class="footerLink">Companii</a></li>
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1" class="footerLink">Cum funcționează Căutarea</a></li>
+          </ul>
+    
+          <ul class="footer2R">
+            <li><a href="https://policies.google.com/privacy?hl=ro&fg=1" class="footerLink">Confidențialitate</a></li>
+            <li><a href="https://policies.google.com/terms?hl=ro&fg=1" class="footerLink">Termeni</a></li>
+            <li><a href="#" class="footerLink">Setări</a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
